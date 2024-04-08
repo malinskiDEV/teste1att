@@ -1,0 +1,1889 @@
+*{
+    margin: 1px;
+    padding: -10px;
+    box-sizing: border-box;
+    background-color;
+}
+.container { background-color:
+}
+
+:root{
+    --color-nao-metais: #b8d86b;
+    --color-gases-nobres: #76aedf;
+    --color-metais-alcalinos: #f8ca6a;
+    --color-metais-alcalinos-terrosos: #f6e66d;
+    --color-semimetais: #79c4db;
+    --color-halogenicos: #b0e0f5;
+    --color-metais: #aacbda;
+    --color-metais-transicao: #f9b2b0;
+    --color-metais-pos-transicao: blue;
+    --color-lantanideos: #9fd9e4;
+    --color-actinideos: #e8c0db;
+    --color-outros-metais: #e81416;
+    --color-desconhecido: #d3d3d3;
+    --color-text: #fff;
+}
+
+body {
+    background-image: linear-gradient(black, red);
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+}
+
+.espaco99 {
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: red solid;
+    margin: 5px ;
+    border-radius: 10px;
+}
+
+.tabela1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    width: 380px;
+    height: 100px;
+    border: white solid;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(black, green)
+    }
+
+    .continuacao1 {
+        background-color: #f8ca6a;
+        width: 123px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .continuacao2 {
+        background-color: #f6e66d;
+        width: 175px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .continuacao3 {
+        background-color:  #9fd9e4;
+        width: 125px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .continuacao4 {
+        background-color: #f9b2b0;
+        width: 125px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .continuacao5 {
+        background-color: blue;
+        width: 185px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .continuacao6 {
+        background-color: #79c4db;;
+        width: 185px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+.espaco30 {
+    width: 100px;
+    height: 100px;
+    color: transparent
+}
+
+.espaco1{
+    background-color: transparent; ;
+    width: 250px;
+    height: 100px;
+    align-items: start;
+    display: flex;
+
+}
+.espaconao{
+    width: 670px;
+    height: 100px;
+    color: transparent;
+}
+
+.tabela11{
+    width: 350px;
+    height: 100px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: white solid;
+    background-color:  #76aedf;
+}
+.tabela10 {
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: white   solid;
+    display: flex;
+    background-color: #b8d86b;;
+}
+.tabela8  {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border: white solid;
+    border-radius: 10px;
+    margin: 10px;
+    background-image: linear-gradient(black, red)
+}
+
+.tabela7{
+    background-color: #79c4db;
+    width: 320px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    font-size: 40px;
+    border: white solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.tabela6{
+    background-color: blue;
+    width: 123px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: white solid;
+}
+
+.tabela5{
+    background-color: #f9b2b0;
+    width: 80px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: white solid;
+}
+.tabela4{
+    background-color: #9fd9e4;
+    width: 82px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: white solid;
+}
+.tabela3 {
+    background-color: #f6e66d;
+    width: 120px;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border: white solid
+}
+.tabela2{
+    background-color: #f8ca6a;
+    width: 75px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border: white solid;
+    border-radius: 10px;
+    flex-direction: column;
+
+    }
+.espaco2 {
+    background-color: transparent;
+    width: 1040px;
+    height: 100px;
+}
+
+.espaco3{
+    background-color: transparent;
+width: 100px;
+height: 100px;
+}
+.espaco4{
+ background-color: transparent;
+ width: 300px;
+ height: 0px;
+}
+.espaco5 {
+    background-color: transparent;
+    width: 300px;
+    height: 0;
+}
+
+.espacoul{
+    width: 495px;
+    display: flex;
+}
+.linha1 {
+    display: flex;
+    align-items: start;
+}
+.linha2 {
+    display: flex;
+    justify-content: start;
+}
+
+.linha3{
+    display: flex;
+    align-items: start;
+}
+.linha4 {
+    display: flex;
+    align-items: start;
+}
+.linha5 {
+    display: flex;
+    align-items: start;
+}
+    .linha6 {
+    display: flex;
+    align-items: start;
+    }
+    .linha7 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .linha8{
+        display: flex;
+    }
+
+    .linhamaior {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100px;
+        height: 120px;
+        color: transparent;
+    } 
+
+    .linha11{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .linha12 {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+.hidrogenio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px cyan;
+}
+
+.hidrogenio:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 100px, 0 0 200px cyan
+}
+
+.helio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-gases-nobres) solid;
+    box-shadow: 0 0 5px cyan;
+}
+
+.helio:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 100px, 0 0 200px cyan
+}
+
+.litio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos) solid;
+    box-shadow: 0 0 5px yellow;
+}
+
+.litio:hover {
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow,
+    0 0 100px, 0 0 200px yellow
+}
+
+.berilio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos-terrosos) solid;
+    box-shadow: 0 0 5px orangered;
+}
+
+.berilio:hover {
+    box-shadow: 0 0 5px orangered, 0 0 25px orangered,
+    0 0 100px, 0 0 200px orangered;
+}
+
+.boro {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-semimetais) solid;
+    box-shadow: 0 0 5px cyan;
+}
+
+.boro:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 100px, 0 0 200px cyan
+}
+
+.carbono {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+.carbono:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green;
+}
+
+.azoto {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+.azoto:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green;
+}
+
+.oxigenio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+
+.oxigenio:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green;
+}
+.fluor {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+
+.fluor:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green;
+}
+
+.neon {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-gases-nobres) solid;
+    box-shadow: 0 0 5px blue;
+}
+
+.neon:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue;
+}
+.sodio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos) solid;
+    box-shadow: 0 0 5px yellow;
+}
+
+.sodio:hover {
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow,
+    0 0 100px, 0 0 200px yellow;
+}
+.magnesio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos-terrosos) solid;
+    box-shadow: 0 0 5px orangered;
+}
+.magnesio:hover {
+    box-shadow: 0 0 5px orangered, 0 0 25px orangered,
+    0 0 100px, 0 0 200px orangered
+}
+
+.aluminio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+}
+.aluminio:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral;
+}
+.silicio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-semimetais) solid;
+    box-shadow: 0 0 5px blue;
+}
+.silicio:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue;
+}
+.fosforo {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+
+.fosforo:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green
+}
+.enxofre {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+
+.enxofre:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green
+}
+.cloro {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+.cloro:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green;
+}
+.argon {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-gases-nobres) solid;
+    box-shadow: 0 0 5px blue;
+}
+.argon:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue;
+}
+.potassio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos) solid;
+    box-shadow: 0 0 5px yellow;
+}
+
+.fosforo:hover {
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow,
+    0 0 100px, 0 0 200px yellow;
+}
+.calcio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos-terrosos) solid;
+    box-shadow: 0 0 5px orangered;
+}
+.calcio:hover {
+    box-shadow: 0 0 5px orangered, 0 0 25px orangered,
+    0 0 100px, 0 0 200px orangered;
+}
+
+.escandio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5Px purple;
+}
+.escandio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.titanio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.titanio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.vanadio {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.vanadio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.cromo {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+
+.cromo:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+
+.manganes {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.manganes:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.ferro {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.ferro:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.cobalto {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.cobalto:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.niquel {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.niquel:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.cobre {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.cobre:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.zinco{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: purple;
+}
+.zinco:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple;
+}
+.galio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+}
+.galio:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral;
+}
+.germanio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-semimetais) solid;
+    box-shadow: 0 0 5px blue;
+}
+.germanio:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue;
+}
+.arsenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-semimetais) solid;
+    box-shadow: 0 0 5px blue;
+}
+.arsenio:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue;
+}
+.selenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+.selenio:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green;
+}
+
+.Bromo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}
+.Bromo:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green }
+.cripton{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-gases-nobres) solid;
+    box-shadow: 0 0 5px blue;
+}
+.cripton:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue }
+.rubidio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos) solid;
+    box-shadow: 0 0 5px yellow;
+}
+.rubidio:hover {
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow,
+    0 0 100px, 0 0 200px yellow }
+.estroncio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos-terrosos) solid;
+    box-shadow: 0 0 5px orangered;
+}
+.estroncio:hover {
+    box-shadow: 0 0 5px orangered, 0 0 25px orangered,
+    0 0 100px, 0 0 200px orangered }
+.itrio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.itrio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+
+
+.zirconio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.zirconio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.niobio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.niobio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.molibdenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.molibdenio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.tecnecio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.tecnecio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.rutenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.rutenio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.rodio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.rodio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.paladio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.paladio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.prata{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.prata:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.cadmio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.cadmio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.indio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicaotransicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+}
+.indio:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral }
+.estranho{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicaotransicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+}
+.estranho:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral }
+.antimonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-semimetais) solid;
+    box-shadow: 0 0 5px blue;
+}
+.antimonio:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue }
+.telurio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-semimetais) solid;
+    box-shadow: 0 0 5px blue;
+}   
+
+.telurio:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue }
+.iodo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-nao-metais) solid;
+    box-shadow: 0 0 5px green;
+}   
+.iodo:hover {
+    box-shadow: 0 0 5px green, 0 0 25px green,
+    0 0 100px, 0 0 200px green }
+.xenonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-gases-nobres) solid;
+    box-shadow: 0 0 5px blue;
+} 
+.xenonio:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue }
+
+.cesio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos) solid;
+    box-shadow: 0 0 5px yellow;
+}       
+.cesio:hover {
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow,
+    0 0 100px, 0 0 200px yellow }
+.bario{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos-terrosos) solid;
+    box-shadow: 0 0 5px orangered ;
+}   
+.bario:hover {
+    box-shadow: 0 0 5px orangered, 0 0 25px orangered,
+    0 0 100px, 0 0 200px orangered}
+.hafnio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.hafnio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.tantalo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.tantalo:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.tungstenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.tungstenio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.renio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.renio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.osmio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.osmio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+
+.irridio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.irridio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.platina{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.platina:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.ouro{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}  
+.ouro:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.mercurio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}      
+.mercurio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.talio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+} 
+.talio:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral }
+.chumbo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+}    
+.chumbo:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral} 
+.bismuto{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+}    
+.bismuto:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral} 
+.polonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-pos-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-pos-transicao) solid;
+    box-shadow: 0 0 5px lightcoral;
+} 
+.polonio:hover {
+    box-shadow: 0 0 5px lightcoral, 0 0 25px lightcoral,
+    0 0 100px, 0 0 200px lightcoral} 
+.astato{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-semimetais) solid;
+    box-shadow: 0 0 5px blue;
+}
+.astato:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue} 
+.radon{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-gases-nobres) solid;
+    box-shadow: 0 0 5px blue;
+}   
+.radon:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue,
+    0 0 100px, 0 0 200px blue}
+.francio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos) solid;
+    box-shadow: 0 0 5px yellow;
+}          
+.francio:hover {
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow,
+    0 0 100px, 0 0 200px yellow}
+.radio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-alcalinos-terrosos)  solid;
+    box-shadow: 0 0 5px orangered;
+
+}
+.radio:hover {
+    box-shadow: 0 0 5px orangered, 0 0 25px orangered,
+    0 0 100px, 0 0 200px orangered}
+
+.rutherfordio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.rutherfordio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+
+.dubnio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.dubnio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.seaborgio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.seaborgio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.bohrio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.bohrio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.hassio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-metais-transicao) solid;
+    box-shadow: 0 0 5px purple;
+}
+.hassio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple }
+.meitnerio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-outros-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-outros-metais) solid;
+    box-shadow: 0 0 5px red;
+}
+.meitnerio:hover {
+    box-shadow: 0 0 5px red, 0 0 25px red,
+    0 0 100px, 0 0 200px red }
+.darmstadtio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-outros-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-outros-metais) solid;
+    box-shadow: 0 0 5px red;
+}
+.darmstadtio:hover {
+    box-shadow: 0 0 5px red, 0 0 25px red,
+    0 0 100px, 0 0 200px red }
+.roentgenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-outros-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-outros-metais) solid;
+    box-shadow: 0 0 5px red;
+}
+.roentgenio:hover {
+    box-shadow: 0 0 5px red, 0 0 25px red,
+    0 0 100px, 0 0 200px red }
+.copernicio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-outros-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-outros-metais) solid;
+    box-shadow: 0 0 5px red;
+}
+.copernicio:hover {
+    box-shadow: 0 0 5px red, 0 0 25px red,
+    0 0 100px, 0 0 200px red }
+
+.nihonium{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-desconhecido);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px black;
+}
+.nihonium:hover {
+    box-shadow: 0 0 5px black, 0 0 25px black,
+    0 0 100px, 0 0 200px black}
+.flerovio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-desconhecido);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px black;
+}
+.flerovio:hover {
+    box-shadow: 0 0 5px black, 0 0 25px black,
+    0 0 100px, 0 0 200px black}
+.moscovio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-desconhecido);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px black;
+}
+.moscovio:hover {
+    box-shadow: 0 0 5px black, 0 0 25px black,
+    0 0 100px, 0 0 200px black}
+.livermorio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-desconhecido);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px black;
+}
+.livermorio:hover {
+    box-shadow: 0 0 5px black, 0 0 25px black,
+    0 0 100px, 0 0 200px black}
+.tenesso{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-desconhecido);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px black;
+}
+.tenesso:hover {
+    box-shadow: 0 0 5px black, 0 0 25px black,
+    0 0 100px, 0 0 200px black}
+.organesson{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-desconhecido);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px black;
+}
+.organesson:hover {
+    box-shadow: 0 0 5px black, 0 0 25px black,
+    0 0 100px, 0 0 200px black}
+.lantanio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.lantanio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.cerio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.cerio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.praseodimio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.praseodimio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.neodimio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.neodimio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.promecio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.promecio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.samario{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.samario:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.europio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.europio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.gadolinio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.gadolinio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.Terbio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.Terbio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.disprosio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.disprosio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.holmio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.holmio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.erbio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.erbio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.tulio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.tulio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.interbio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+.interbio:hover {
+    box-shadow: 0 0 5px gold, 0 0 25px gold,
+    0 0 100px, 0 0 200px gold}
+.lutecio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-desconhecido) solid;
+    box-shadow: 0 0 5px gold;
+}
+
+.actinio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.actinio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.torio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.torio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.protactinio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.protactinio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.uranio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.uranio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.neptunio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.neptunio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.plutonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.plutonio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.americio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.americio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.curio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.curio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.berquelio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.berquelio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.californio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.californio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.einstenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.einstenio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.fermio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.fermio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.mendelevio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.mendelevio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.nobelio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.nobelio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
+.laurencio  {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-actinideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 5px;
+    border: var(--color-actinideos) solid;
+    box-shadow: 0 0 5px purple;
+}
+.actinio:hover {
+    box-shadow: 0 0 5px purple, 0 0 25px purple,
+    0 0 100px, 0 0 200px purple}
